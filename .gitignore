@@ -4,7 +4,8 @@
 
 # Icon must end with two \r
 Icon
-
+_site/*
+_site
 # Thumbnails
 ._*
 
