@@ -1,0 +1,59 @@
+name:               "HU YaoKang"
+description:        "Listening to My Own Heart Beat "
+
+avater:             "/images/avater.jpg"
+url:                ""
+author:             "HU YaoKang"
+email:              "hikean@163.com"
+gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
+twitter:            ""
+github:             "hikean"
+pinterest:          ""
+linkedin:           ""
+facebook:           ""
+
+disqus_shortname:   ""
+
+background:         "/images/background.jpg"
+
+paginate:           5
+paginate_path:      "/page:num/"
+
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+markdown:           kramdown
+kramdown:
+  toc_levels: 2..2 # there're bugs while setting toc_levels equal 2..3
+  input: GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+
+nav:
+  - name:           "About"
+    href:           "/about"
+  - name:           "Blog"
+    href:           "/blog"
+
+sass:
+  style:            :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-paginate
