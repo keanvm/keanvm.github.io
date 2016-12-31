@@ -305,7 +305,7 @@ tbody tr:nth-child(odd) th {
     }
 }
 
-@keyframes myfirst
+@keyframes heartbeat
 {
 0%   {font-size: 1.00em;}
 20%  {font-size: 1.05em;}
@@ -318,7 +318,7 @@ tbody tr:nth-child(odd) th {
 100% {font-size: 1.45em;}
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes heartbeat /* Firefox */
 {
 0%   {font-size: 1.00em;}
 20%  {font-size: 1.05em;}
@@ -331,7 +331,7 @@ tbody tr:nth-child(odd) th {
 100% {font-size: 1.45em;}
 }
 
-@-webkit-keyframes myfirst /* Safari 和 Chrome */
+@-webkit-keyframes heartbeat /* Safari 和 Chrome */
 {
 0%   {font-size: 1.00em;}
 20%  {font-size: 1.05em;}
@@ -343,7 +343,7 @@ tbody tr:nth-child(odd) th {
 95%  {font-size: 1.40em;}
 100% {font-size: 1.45em;}
 }
-@-o-keyframes myfirst /* Opera */
+@-o-keyframes heartbeat /* Opera */
 {
 0%   {font-size: 1.00em;}
 20%  {font-size: 1.05em;}
@@ -357,10 +357,10 @@ tbody tr:nth-child(odd) th {
 }
 
 .beat-heart{
-    animation: myfirst 0.8s infinite alternate;         
-    -moz-animation: myfirst 0.8s infinite alternate;    /* Firefox: */
-    -webkit-animation: myfirst 0.8s infinite alternate; /* Safari 和 Chrome: */
-    -o-animation: myfirst 0.8s infinite alternate;      /* Opera: */
+    animation: heartbeat 0.8s infinite alternate;         
+    -moz-animation: heartbeat 0.8s infinite alternate;    /* Firefox: */
+    -webkit-animation: heartbeat 0.8s infinite alternate; /* Safari 和 Chrome: */
+    -o-animation: heartbeat 0.8s infinite alternate;      /* Opera: */
 }
 
 .profile {
