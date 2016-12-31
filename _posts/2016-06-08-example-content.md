@@ -135,7 +135,7 @@ Here's a "line block":
 
 and images can be specified like so:
 
-![example image](/images/background.jpg")
+![example image](/images/background.jpg)
 
 
 And note that you can backslash-escape any punctuation characters
