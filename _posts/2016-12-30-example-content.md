@@ -1,9 +1,8 @@
 ---
 title:        "Sample Post"
 description:  "A short description of the page's content"
-image:        "http://placehold.it/400x200"
 author:       "Jhonathan"
-date: 2016-12-30
+notshow: true
 ---
 
 An h1 header

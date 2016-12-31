@@ -14,6 +14,8 @@ disqus: false
 <div class="content">
     {% if site.posts.size == 0 %}
     <h2>No post found</h2> {% else %} {% for post in paginator.posts %}
+    {% if post.notshow %}
+    {% else %}
     <div class="post-list">
         <h2 class="post-title">
       <a href="{{ post.url }}">{{ post.title }}</a>
@@ -24,6 +26,7 @@ disqus: false
             <time>{{ post.date | date_to_string }}</time>
         </div>
     </div>
+    {% endif %}
     {% endfor %} {% if paginator.total_pages > 1 %}
     <div class="pages">
       {% if paginator.previous_page %}
