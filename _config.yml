@@ -20,7 +20,7 @@ paginate:           5
 paginate_path:      "/page:num/"
 
 baseurl:            ""
-permalink:          /:year/:month/:day/:title/
+permalink:          /:year/:title/
 
 markdown:           kramdown
 kramdown:
