@@ -2,7 +2,8 @@
 ---
 
 $open-sans: 'Open Sans', sans-serif;
-$source-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $source-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$source-sans: "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Helvetica", "Hiragino Sans GB", sans-serif;
 
 * {
     -webkit-box-sizing: border-box;
@@ -29,11 +30,11 @@ body {
 
 html {
     font-family: $source-sans;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 1.6;
     @media (min-width: 38em) {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
@@ -357,7 +358,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .beat-heart{
-    animation: heartbeat 0.8s infinite alternate;         
+    animation: heartbeat 0.8s infinite alternate;
     -moz-animation: heartbeat 0.8s infinite alternate;    /* Firefox: */
     -webkit-animation: heartbeat 0.8s infinite alternate; /* Safari 和 Chrome: */
     -o-animation: heartbeat 0.8s infinite alternate;      /* Opera: */
@@ -366,7 +367,7 @@ tbody tr:nth-child(odd) th {
 .profile {
     padding: 2%;
     background-repeat:no-repeat;
-    background-size: cover; 
+    background-size: cover;
     background-position:center;
     .img-circle {
         height: auto;
@@ -513,8 +514,15 @@ tbody tr:nth-child(odd) th {
     }
 }
 
-.post-date{
+.post-info{
     margin-top: 0re;
+    // text-align: right;
+    font-size: 0.8em;
+    font-family: 'Lora', 'Times New Roman', serif;
+    color: #808080;
+    // font-size: 16px;
+    font-style: italic;
+    // margin-top: 0;
 }
 .highlight .hll {
     background-color: #ffffcc
