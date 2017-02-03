@@ -21,13 +21,22 @@ disqus: false
         <h2 class="post-title">
             <a href="{{ post.url }}">{{ post.title }}</a>
         </h2>
-    {% if post.description %}
-        <p>{{ post.description }}</p>
-        {% endif %}
-        <div class="post-info">
+
+        <p>
+            {% if post.description %}
+                {{ post.description }}
+            {% endif %}
+
+            <span class="post-info" style="display: block">Posted by {% if post.autor%}{{post.author}} {% else%} Kean {%endif%}
+                on <time>{{ post.date | date_to_string }}</time>
+            </span>
+        </p>
+        <!-- <div class="post-info">
             <span>Posted by {% if post.autor%}{{post.author}} {% else%} Kean {%endif%}
                 on <time>{{ post.date | date_to_string }}</time></span>
-        </div>
+        </div> -->
+
+
     </div>
     {% endif %}
     {% endfor %} {% if paginator.total_pages > 1 %}
