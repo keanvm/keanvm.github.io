@@ -23,17 +23,17 @@ html,
 body {
     margin: 0;
     padding: 0;
-    @media (min-width: 38em) {
+    @media (min-width: 42em) {
         overflow: hidden;
     }
 }
 
 html {
     font-family: $source-sans;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
-    @media (min-width: 38em) {
+    @media (min-width: 42em) {
         font-size: 16px;
     }
 }
@@ -240,13 +240,13 @@ pre code {
 }
 
 .fa {
-    margin-left: -2vw;
-    font-size: 1.2em;
-    margin-right: 6vw;
-    @media (min-width: 38em) {
+    margin-left: 2vw;
+    font-size: 3.6vw;
+    margin-right: 2vw;
+    @media (min-width: 42em) {
         font-size: 2vw;
         margin-left: 0;
-        margin-right: 1.4vw;
+        margin-right: 0.68vw;
     }
 }
 
@@ -364,6 +364,28 @@ tbody tr:nth-child(odd) th {
     -o-animation: heartbeat 0.8s infinite alternate;      /* Opera: */
 }
 
+h1.post-title{
+    padding-bottom: 10px;
+    font-size: 2.4em;
+}
+div.post{
+    padding-left: 0.5em;
+}
+
+div.post p{
+    text-indent: 2em;
+    // font-size: 0.875em;
+}
+
+p.post-date{
+    text-align: right;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+p.site-des{
+    font-size: 3.5vw;
+}
 .profile {
     padding: 2%;
     background-repeat:no-repeat;
@@ -379,27 +401,32 @@ tbody tr:nth-child(odd) th {
     }
     h3 {
         height: auto;
-        margin-right: 4vw;
+        margin-right: 10vw;
         margin-top: 10vw;
         width: 50%;
         float: right;
         color: #FFF;
+        font-size: 4.5vw;
+    }
+    p.heart-wrapper{
+        height: 1.8em;
+        margin-top: -1.2em;
     }
     p {
-        height: auto;
         width: 100%;
         text-align: center;
         color: #ddd;
     }
+
     .social {
         margin-left: 25vw;
         height: auto;
         width: 100%;
     }
-    .navbar {
-        margin-left: 33vw;
+    p.navbar {
+        text-align: center;
+        margin: 0 auto;
         height: auto;
-        width: 100%;
         a{
             color: #888;
             text-decoration: none;
@@ -411,7 +438,7 @@ tbody tr:nth-child(odd) th {
             }
         }
     }
-    @media (min-width: 38em) {
+    @media (min-width: 42em) {
         position: fixed;
         width: 20%;
         height: 100%;
@@ -424,9 +451,11 @@ tbody tr:nth-child(odd) th {
             text-align: center;
             float: none;
             width: 100%;
+            font-size: 1.3rem;
             margin-top: -0.8em;
         }
         p {
+            height: auto;
             margin-top: -1.3em;
             font-size: 16px;
             text-align: center;
@@ -448,14 +477,19 @@ tbody tr:nth-child(odd) th {
             }
         }
         .navbar {
-            position: absolute;
-            margin-left: 0.8vw;
+            // bottom: 0.5em;
+            // position: absolute;
+            margin:auto;
+            // margin-left: 0.8vw;
             a {
                 color: #888;
                 padding: 0;
                 margin-left: 0;
                 text-decoration: none;
                 transition: all 0.3s;
+                &:first-child{
+                    margin-left: 1vw;
+                }
                 &:hover,
                 &:focus {
                     color: #FF6060;
@@ -467,12 +501,12 @@ tbody tr:nth-child(odd) th {
 }
 
 .posts {
-    max-width: 38rem;
+    max-width: 42rem;
     padding: 1.4rem 0.8rem;
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
-    @media (min-width: 38rem) {
+    @media (min-width: 42em) {
         margin-top: 0;
         margin-left: 20%;
         padding: 3%;
