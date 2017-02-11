@@ -1,10 +1,10 @@
 # Ink
 
-Ink is a minmal two-column theme for [Jekyll](http://jekyllrb.com) 
+Ink is a minmal two-column theme for [Jekyll](http://jekyllrb.com)
 
 ![Screenshot](https://s32.postimg.org/gdtp6pw1x/ink.png)
 
-# Installation 
+# Installation
 
 ##### Setup on your local machine
  * Clone or download the repository
@@ -18,7 +18,7 @@ Ink is a minmal two-column theme for [Jekyll](http://jekyllrb.com)
  * Follow the configuration step
  * Host your site/blog with **Ink**
 
-# Configuration 
+# Configuration
  * Change the following in ```_config.yml```
  ```
     name:               "Ink"
@@ -33,16 +33,16 @@ Ink is a minmal two-column theme for [Jekyll](http://jekyllrb.com)
     pinterest:          "jhondoe"
     linkedin:           "jhondoe"
     facebook:           "jhondoe"
-    
+
  ```
  * Set the number of posts that appear in each page by changing the ```paginate``` option in ```_config.yml``` file. Default value is 5.
- * Add more navigation menus in the ```nav``` section in ```_config.yml```. 
+ * Add more navigation menus in the ```nav``` section in ```_config.yml```.
  * Add your custom url in ```url``` option. Example : http://thinker3197.github.io/blog. Consult the ```gh-pages``` branch to see the basic setup for a blog.
  * Add your custom background by adding a custom background link in the ```background``` option in ```_config.yml```.
- 
+
 # Licensce
 
-Open sourced under [MIT LICENSE](https://github.com/thinker3197/ink/blob/master/LICENSE) 
+Open sourced under [MIT LICENSE](https://github.com/thinker3197/ink/blob/master/LICENSE)
 
 
 
