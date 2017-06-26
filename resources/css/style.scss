@@ -392,7 +392,7 @@ p.site-des{
     margin-top: 50px;
 }
 @media (min-width: 42em) {
-    img.codingb{
+    .codingb{
         display: none;
     }
 }
@@ -460,10 +460,10 @@ p.site-des{
             height: 140px;
             width: 140px;
         }
-        img.coding-b{
+        .coding-b{
             display: none;
         }
-        img.coding{
+        .coding{
             height: auto;
             width: 70%;
             display: block;
