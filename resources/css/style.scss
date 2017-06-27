@@ -390,6 +390,7 @@ p.site-des{
     width: 24%;
     margin-left: 38%;
     margin-top: 50px;
+    margin-bottom: 0px;
 }
 @media (min-width: 42em) {
     .codingb{
@@ -544,7 +545,7 @@ p.site-des{
 
 .bloghead {
     .bloghead-title {
-        span {
+        .head-tail {
             color: #BDBDBD;
         }
         margin-top: 0px;
