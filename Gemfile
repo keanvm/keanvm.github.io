@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
-gem 'jekyll'
+
+gem 'jekyll', '~> 4.3'
+gem 'kramdown-parser-gfm'
+gem 'webrick' # Required for Ruby 3.0+ local server
 
 group :jekyll_plugins do
-  gem "jekyll-paginate"
+  gem 'jekyll-paginate'
 end

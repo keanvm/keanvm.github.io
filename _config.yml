@@ -1,5 +1,7 @@
-name:               '聆听<span style="padding: 0 4px 0 4px; ">•</span>心动'
-title:              "聆听•心动"
+# name:               '聆听<span style="padding: 0 4px 0 4px; ">•</span>心动'
+name:               'K<span style="padding: 0 4px 0 4px; ">•</span>Echo'
+# title:              "聆听•心动"
+title:              "K•Echo"
 description:        "Listening to My Own Heart Beat "
 
 avater:             "/images/avater.jpg"
@@ -25,13 +27,7 @@ permalink:          /:year/:title/
 
 markdown:           kramdown
 kramdown:
-  toc_levels: 2..2 # there're bugs while setting toc_levels equal 2..3
   input: GFM
-  # https://github.com/jekyll/jekyll/pull/4090
-  extensions:
-    - autolink
-    - footnotes
-    - smart
 
 nav:
   - name:           "About"
@@ -40,7 +36,7 @@ nav:
     href:           "/blog"
 
 sass:
-  style:            :compressed
+  style:            compressed
 
 defaults:
   -

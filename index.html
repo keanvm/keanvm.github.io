@@ -27,12 +27,12 @@ disqus: false
                 {{ post.description }}
             {% endif %}
 
-            <span class="post-info" style="display: block">Posted by {% if post.autor%}{{post.author}} {% else%} Kean {%endif%}
+            <span class="post-info" style="display: block">Posted by {% if post.author %}{{ post.author }} {% else %} Kean {% endif %}
                 on <time>{{ post.date | date_to_string }}</time>
             </span>
         </p>
         <!-- <div class="post-info">
-            <span>Posted by {% if post.autor%}{{post.author}} {% else%} Kean {%endif%}
+            <span>Posted by {% if post.author %}{{ post.author }} {% else %} Kean {% endif %}
                 on <time>{{ post.date | date_to_string }}</time></span>
         </div> -->
 
